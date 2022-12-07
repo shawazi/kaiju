@@ -40,6 +40,15 @@ nav ul {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+nav {
+    background-color: rgb(67, 0, 101);
+    padding: 0px;
+    position: sticky;
+    top: 65px;
+    z-index: 2;
+}
+
 a:link {
     text-decoration: none;
     color: darkorchid;
