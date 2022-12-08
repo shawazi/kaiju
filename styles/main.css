@@ -23,6 +23,7 @@ header {
     top: 0;
     width: 100%;
 }
+
 header h1 {
     color: white;
     border: 8px solid white;
@@ -49,9 +50,24 @@ nav {
     z-index: 2;
 }
 
-a:link {
+a, a:link {
     text-decoration: none;
     color: darkorchid;
+}
+
+a:visited {
+    text-decoration: line-through;
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a:active {
+    text-decoration: double;
+    color: orange;
 }
 
 li {
